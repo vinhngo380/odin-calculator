@@ -1,0 +1,27 @@
+body {
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #222222;
+}
+
+.main-calculator {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	height: 600px;
+	width: 500px;
+	background-color: #444444;
+}
+
+.display {
+	background-color: white;
+}
+
+.calculator-row {
+	display: flex;
+	align-items:center;
+	justify-content: space-evenly;
+	background-color: #666666;
+}
