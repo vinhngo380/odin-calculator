@@ -9,19 +9,33 @@ body {
 .main-calculator {
 	display: flex;
 	flex-direction: column;
-	justify-content: space-between;
+	justify-content: space-evenly;
 	height: 600px;
 	width: 500px;
 	background-color: #444444;
+	gap: 4px;
+	padding: 8px;
 }
 
 .display {
 	background-color: white;
+	flex-grow: 1;
+	margin-bottom: 12px;
+	height: 80px;
 }
 
 .calculator-row {
 	display: flex;
 	align-items:center;
 	justify-content: space-evenly;
+	flex-grow: 1;
 	background-color: #666666;
+	gap: 4px;
+	padding: 4px;
+}
+
+.calculator-button {
+	background-color: #c2d4b1;
+	display: flex;
+	flex-grow: 1;
 }
